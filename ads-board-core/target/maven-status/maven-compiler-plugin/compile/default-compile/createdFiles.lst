@@ -1,0 +1,12 @@
+com\adsboard\service\InitDbService.class
+com\adsboard\service\RubricService.class
+com\adsboard\repository\AdRepository.class
+com\adsboard\service\UserService.class
+com\adsboard\model\Role.class
+com\adsboard\service\AdService.class
+com\adsboard\model\Ad.class
+com\adsboard\repository\RubricRepository.class
+com\adsboard\repository\RoleRepository.class
+com\adsboard\model\User.class
+com\adsboard\model\Rubric.class
+com\adsboard\repository\UserRepository.class
