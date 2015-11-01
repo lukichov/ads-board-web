@@ -100,7 +100,8 @@ public class AdRepositoryTest {
 		User user = userRepository.findOne(2);
 		RubricRepository rubricRepository = actx.getBean(RubricRepository.class);
 		Rubric rubric = rubricRepository.findOne(1);
-		List<Ad> ads = adRepository.findByUserAndRubric(user, rubric);
+		Pageable pageable = new PageRequest(0, 20, Direction.DESC, "adDate");
+		List<Ad> ads = adRepository.findByUserAndRubric(user, rubric, pageable);
 
 		assertTrue(1 == ads.size());
 		Ad ad = ads.get(0);

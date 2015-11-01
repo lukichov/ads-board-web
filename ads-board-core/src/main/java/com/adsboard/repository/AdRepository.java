@@ -38,7 +38,8 @@ public interface AdRepository extends JpaRepository<Ad, Integer>{
 	List<Ad> findByRubric(Rubric rubric, Pageable pageable);
 	
 	/**
-	 * The method returns a list of ads selected by the user
+	 * The method returns a list of ads selected by the user.
+	 * Uses in deleting ads of user
 	 * @param User user
 	 * @return List<Ad>
 	 */
@@ -46,10 +47,31 @@ public interface AdRepository extends JpaRepository<Ad, Integer>{
 	
 	/**
 	 * The method returns a list of ads selected by the user
-	 * and by the rubric
+	 * and by the rubric and sorted according to the pageble settings 
 	 * @param User user
 	 * @param Rubric rubric
 	 * @return List<Ad>
 	 */
-	List<Ad> findByUserAndRubric(User user, Rubric rubric);
+	List<Ad> findByUserAndRubric(User user, Rubric rubric, Pageable pageable);
+
+	/**
+	 * The method returns a list of ads selected by the by the rubric
+	 * and by List of users
+	 * 
+	 * @param User user
+	 * @param Rubric rubric
+	 * @return List<Ad>
+	 */
+	List<Ad> findByRubricAndUserIn(Rubric rubric, List<User> users, Pageable pageable);
+
+	/**
+	 * The method returns a list of ads selected by the list of users
+	 * and by the rubric and sorted according to the pageble settings 
+	 * @param User user
+	 * @param Rubric rubric
+	 * @return List<Ad>
+	 */
+	List<Ad> findByUserIn(List<User> users, Pageable pageable);
+	
+	
 }

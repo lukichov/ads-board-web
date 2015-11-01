@@ -133,12 +133,8 @@ public class AdService {
 	 */
 	public List<Ad> findByLikeUserAndRubric(String likeName, Rubric rubric) {
 		List<User> users = userService.findLikeName(likeName);
-		List<Ad> allAds = new LinkedList<Ad>();
-		for (User user : users) {
-			allAds.addAll(adRepository.findByUserAndRubric(user, rubric));
-		}
-		Collections.sort(allAds);
-		return allAds;
+		return adRepository.findByRubricAndUserIn(rubric, users, new PageRequest(0, 20, Direction.DESC, "adDate"));
+		
 	}
 
 	/**
@@ -149,12 +145,8 @@ public class AdService {
 	 */
 	public List<Ad> findByLikeUser(String likeName) {
 		List<User> users = userService.findLikeName(likeName);
-		List<Ad> allAds = new LinkedList<Ad>();
-		for (User user : users) {
-			allAds.addAll(adRepository.findByUser(user));
-		}
-		Collections.sort(allAds);
-		return allAds;
+		return adRepository.findByUserIn(users, new PageRequest(0, 20, Direction.DESC, "adDate"));
+		
 	}
 
 	/**
@@ -166,10 +158,7 @@ public class AdService {
 	 */
 	public List<Ad> findByLoginAndRubric(String login, Rubric rubric) {
 		User user = userService.findByLogin(login);
-		List<Ad> allAds = new LinkedList<Ad>();
-		allAds.addAll(adRepository.findByUserAndRubric(user, rubric));
-		Collections.sort(allAds);
-		return allAds;
+		return adRepository.findByUserAndRubric(user, rubric, new PageRequest(0, 20, Direction.DESC, "adDate"));
 	}
 
 }
