@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+target
+.idea
+/ads-board-web/target
+/ads-board-test/target
+/ads-board-core/target
+output

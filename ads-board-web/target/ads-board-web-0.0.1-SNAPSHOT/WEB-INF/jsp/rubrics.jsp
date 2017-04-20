@@ -6,7 +6,7 @@
 <table class = "table table-bordered table-hover table-striped">
 	<thead>
 		<tr>
-			<th>Rubrics</th>
+			<th>Рубрики</th>
 		</tr>
 	</thead>
 	<tbody>

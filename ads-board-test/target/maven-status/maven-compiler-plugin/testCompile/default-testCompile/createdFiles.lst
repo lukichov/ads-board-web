@@ -1,0 +1,7 @@
+com\adsboard\repository\AdRepositoryTest.class
+com\adsboard\repository\RoleRepositoryTest.class
+com\adsboard\repository\UserRepositoryTest.class
+com\adsboard\service\UserServiceTest.class
+com\adsboard\service\RubricServiceTest.class
+com\adsboard\repository\RubricRepositoryTest.class
+com\adsboard\service\AdServiceTest.class

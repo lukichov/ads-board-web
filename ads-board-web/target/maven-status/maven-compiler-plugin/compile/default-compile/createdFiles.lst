@@ -1,5 +1,6 @@
+com\adsboard\controller\MyAdsController.class
 com\adsboard\controller\UserController.class
 com\adsboard\controller\HomeController.class
 com\adsboard\controller\RubricController.class
-com\adsboard\controller\AdController.class
+com\adsboard\controller\AdsController.class
 com\adsboard\controller\LoginController.class

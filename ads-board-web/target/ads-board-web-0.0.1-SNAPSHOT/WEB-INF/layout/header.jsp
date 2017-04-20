@@ -24,12 +24,11 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="${current == 'index' ? 'active' : ''}"><a
-					href='<spring:url value = "/" />'>Домашняя</a></li>
+				
 				<li class="${current == 'ads' ? 'active' : ''}"><a
-					href='<spring:url value="/ads.html"></spring:url>'>Объявления</a></li>
+					href='<spring:url value="/ads.html"></spring:url>'>Все объявления</a></li>
 				<security:authorize access="hasRole('ROLE_USER')">
-					<li><a href='<spring:url value="/myads.html"></spring:url>'>Мои
+					<li class="${current == 'myads' ? 'active' : ''}"><a href='<spring:url value="/myads.html"></spring:url>'>Мои
 							объявления</a></li>
 				</security:authorize>
 

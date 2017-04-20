@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>ads-board-web</artifactId>
 	<packaging>war</packaging>
-	<name>Ads-Board Web</name>
+	<name>Ads-Board-Web</name>
 	
 
 	<properties>

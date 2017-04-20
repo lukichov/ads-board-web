@@ -16,19 +16,19 @@ $(document).ready(function() {
 <table class="table table-bordered table-hover table-striped">
 	<thead>
 		<tr>
-			<th>Имя пользователя</th>
-			<th>Объявления пользователя</th>
-			<th>Управление</th>
+			<th width="40%"><div align="center">Имя пользователя</div></th>
+			<th width="40%"><div align="center">Объявления пользователя</div></th>
+			<th width="20%"><div align="center">Управление</div></th>
 		</tr>
 	</thead>
 	<tbody>
 		<c:forEach items="${users}" var="user">
 			<tr>
-				<td><a href='<spring:url value="/users/${user.id}.html" />'>
+				<td align="center"><a href='<spring:url value="/users/${user.id}.html" />'>
 						${user.name} </a></td>
-				<td><a href='<spring:url value="/ads/user/${user.id}.html" />'>
-						Ссылка </a></td>
-				<td><a
+				<td align="center"><a href='<spring:url value="/ads/user/${user.id}.html" />'>
+						Объявления </a></td>
+				<td align="center"><a
 					href='<spring:url value="/users/remove/${user.id}.html" />'
 					class="btn btn-danger triggerRemove"> Удалить</a></td>
 			</tr>

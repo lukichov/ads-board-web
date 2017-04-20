@@ -64,10 +64,10 @@
 <table class="table table-bordered table-hover table-striped">
 	<thead>
 		<tr>
-			<th >Объявление</th>
-			<th><div align="center">Рубрика</div></th>
-			<th><div align="center">Дата</div></th>
-			<th><div align="center">Действия</div></th>
+			<th width="45%">Объявление</th>
+			<th width="15%"><div align="center">Рубрика</div></th>
+			<th width="15%"><div align="center">Дата</div></th>
+			<th width="25%"><div align="center">Действия</div></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -78,11 +78,13 @@
 				<td align="center">${ad.rubric.rubricName}</td>
 				<td align="center"><fmt:formatDate value="${ad.adDate}"
 						pattern="dd.MM.yyyy  H:mm" /></td>
-				<td align="center"><a
-					href='<spring:url value="/myads/remove/${ad.adId}.html" />'
-					class="btn btn-danger triggerRemove"> Удалить</a> <a
+				<td align="center">
+				<a
 					href='<spring:url value="/myads/edit/${ad.adId}.html" />'
-					class="btn btn-primary editModal"> Редактировать</a></td>
+					class="btn btn-primary editModal"> Редактировать</a>&nbsp;&nbsp;
+				<a
+					href='<spring:url value="/myads/remove/${ad.adId}.html" />'
+					class="btn btn-danger triggerRemove"> Удалить</a></td>
 			</tr>
 		</c:forEach>
 	</tbody>

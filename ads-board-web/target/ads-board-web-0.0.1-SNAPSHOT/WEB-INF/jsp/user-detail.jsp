@@ -3,19 +3,19 @@
 
 <%@ include file="../layout/taglib.jsp" %>
 
-<table class="table table-bordered table-hover table-striped">
+<table class="table table-bordered table-hover table-striped centered" >
 	<thead>
 		<tr>
-			<th>User name</th>
-			<th>User login</th>
-			<th>User password</th>
+			<th width="34%">Имя пользователя</th>
+			<th width="33%">Логин</th>
+			<th width="33%">Ваши объявления</th>
 		</tr>
 	</thead>
 	<tbody>
 			<tr>
 				<td>${user.name}</td>
 				<td>${user.login}</td>
-				<td>${user.password}</td>
+				<td><a href="/ads-board-web/myads.html">Объявления</a></td>
 			</tr>
 	</tbody>
 </table>

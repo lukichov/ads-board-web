@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="com.adsboard.repository.AdRepositoryTest" time="12.744" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.adsboard.repository.AdRepositoryTest" time="7.2" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
     <property name="java.vm.version" value="25.40-b25"/>
-    <property name="user.country.format" value="US"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="H:\Dropbox\Dropbox\JAVA_HOME\ads-board"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.script" value=""/>
-    <property name="user.country" value="RU"/>
+    <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="H:\Dropbox\Dropbox\JAVA_HOME\ads-board"/>
+    <property name="user.dir" value="H:\JAVA\ads-board-web"/>
     <property name="java.runtime.version" value="1.8.0_40-b26"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="E:\Tmp\"/>
+    <property name="java.io.tmpdir" value="h:\Tmp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="H:\Dropbox\Dropbox\JAVA_HOME\_HOME_WORKSPACE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6789930243706162099.tmp"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_40/bin/server;C:/Program Files/Java/jre1.8.0_40/bin;C:/Program Files/Java/jre1.8.0_40/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Windows\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_40\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3\bin;C:\Program Files (x86)\PuTTY\;C:\Program Files\OpenVPN\bin;%ZOOKEEPER_HOME%\bin;C:\Program Files\nodejs\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;D:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;D:\Programs\Microsoft SQL Server\100\Tools\Binn\;D:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;D:\Programs\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\Users\Alexandr\AppData\Roaming\npm;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -41,122 +39,31 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1251"/>
     <property name="user.name" value="Alexandr"/>
-    <property name="java.class.path" value="/C:/Users/Alexandr/eclipse/jee-mars/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3\boot\plexus-classworlds-2.5.1.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_40\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="ru"/>
-    <property name="user.language.format" value="en"/>
+    <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_40"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_40\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_40\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp866"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="H:\Dropbox\Dropbox\JAVA_HOME\ads-board\EMBEDDED"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.2.3"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp866"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserAndRubric" time="7.292"/>
-  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByRubric" time="1.854">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.adsboard.repository.AdRepositoryTest.testFindByRubric(AdRepositoryTest.java:63)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</failure>
-    <system-out>Hibernate: alter table ads drop constraint FK_qoq5gvusortq00cow4ct7be1l
-Hibernate: alter table ads drop constraint FK_gd60y9yqo38nw9hrq794aggjw
-Hibernate: alter table users_roles drop constraint FK_60loxav507l5mreo05v0im1lq
-Hibernate: alter table users_roles drop constraint FK_9tm2g7h6pihegkj5cp04hc594
-Hibernate: drop table if exists ads cascade
-Hibernate: drop table if exists roles cascade
-Hibernate: drop table if exists rubrics cascade
-Hibernate: drop table if exists users cascade
-Hibernate: drop table if exists users_roles cascade
-Hibernate: drop sequence hibernate_sequence
-Hibernate: create table ads (ad_id  serial not null, ad_date timestamp, ad_header varchar(255), ad_text varchar(255), rubric_id int4, user_id int4, primary key (ad_id))
-Hibernate: create table roles (id int4 not null, name varchar(255), primary key (id))
-Hibernate: create table rubrics (rubric_id  serial not null, rubric_name varchar(255), primary key (rubric_id))
-Hibernate: create table users (user_id  serial not null, enabled boolean not null, user_login varchar(255), user_name varchar(255), user_password varchar(255), primary key (user_id))
-Hibernate: create table users_roles (users_user_id int4 not null, roles_id int4 not null)
-Hibernate: alter table ads add constraint FK_qoq5gvusortq00cow4ct7be1l foreign key (rubric_id) references rubrics
-Hibernate: alter table ads add constraint FK_gd60y9yqo38nw9hrq794aggjw foreign key (user_id) references users
-Hibernate: alter table users_roles add constraint FK_60loxav507l5mreo05v0im1lq foreign key (roles_id) references roles
-Hibernate: alter table users_roles add constraint FK_9tm2g7h6pihegkj5cp04hc594 foreign key (users_user_id) references users
-Hibernate: create sequence hibernate_sequence
-Hibernate: select nextval (&apos;hibernate_sequence&apos;)
-Hibernate: insert into roles (name, id) values (?, ?)
-Hibernate: select nextval (&apos;hibernate_sequence&apos;)
-Hibernate: insert into roles (name, id) values (?, ?)
-Hibernate: insert into users (enabled, user_login, user_name, user_password) values (?, ?, ?, ?)
-Hibernate: insert into users_roles (users_user_id, roles_id) values (?, ?)
-Hibernate: insert into users_roles (users_user_id, roles_id) values (?, ?)
-Hibernate: insert into users (enabled, user_login, user_name, user_password) values (?, ?, ?, ?)
-Hibernate: insert into users_roles (users_user_id, roles_id) values (?, ?)
-Hibernate: insert into users (enabled, user_login, user_name, user_password) values (?, ?, ?, ?)
-Hibernate: insert into users_roles (users_user_id, roles_id) values (?, ?)
-Hibernate: insert into users (enabled, user_login, user_name, user_password) values (?, ?, ?, ?)
-Hibernate: insert into users_roles (users_user_id, roles_id) values (?, ?)
-Hibernate: insert into rubrics (rubric_name) values (?)
-Hibernate: insert into rubrics (rubric_name) values (?)
-Hibernate: insert into rubrics (rubric_name) values (?)
-Hibernate: insert into rubrics (rubric_name) values (?)
-Hibernate: insert into rubrics (rubric_name) values (?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: insert into ads (ad_date, ad_header, ad_text, rubric_id, user_id) values (?, ?, ?, ?, ?)
-Hibernate: select rubric0_.rubric_id as rubric_i1_2_0_, rubric0_.rubric_name as rubric_n2_2_0_ from rubrics rubric0_ where rubric0_.rubric_id=?
-Hibernate: select ad0_.ad_id as ad_id1_0_, ad0_.ad_date as ad_date2_0_, ad0_.ad_header as ad_heade3_0_, ad0_.ad_text as ad_text4_0_, ad0_.rubric_id as rubric_i5_0_, ad0_.user_id as user_id6_0_ from ads ad0_ left outer join rubrics rubric1_ on ad0_.rubric_id=rubric1_.rubric_id where rubric1_.rubric_id=? order by ad0_.ad_date desc limit ?
-Hibernate: select rubric0_.rubric_id as rubric_i1_2_0_, rubric0_.rubric_name as rubric_n2_2_0_ from rubrics rubric0_ where rubric0_.rubric_id=?
-Hibernate: select user0_.user_id as user_id1_3_0_, user0_.enabled as enabled2_3_0_, user0_.user_login as user_log3_3_0_, user0_.user_name as user_nam4_3_0_, user0_.user_password as user_pas5_3_0_ from users user0_ where user0_.user_id=?
-Hibernate: select user0_.user_id as user_id1_3_0_, user0_.enabled as enabled2_3_0_, user0_.user_login as user_log3_3_0_, user0_.user_name as user_nam4_3_0_, user0_.user_password as user_pas5_3_0_ from users user0_ where user0_.user_id=?
-Hibernate: select user0_.user_id as user_id1_3_0_, user0_.enabled as enabled2_3_0_, user0_.user_login as user_log3_3_0_, user0_.user_name as user_nam4_3_0_, user0_.user_password as user_pas5_3_0_ from users user0_ where user0_.user_id=?
-</system-out>
-  </testcase>
-  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserUser" time="1.722"/>
-  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserUserPageable" time="1.876"/>
+  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserAndRubric" time="3.69"/>
+  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByRubric" time="1.279"/>
+  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserUser" time="1.249"/>
+  <testcase classname="com.adsboard.repository.AdRepositoryTest" name="testFindByUserUserPageable" time="0.982"/>
 </testsuite>
